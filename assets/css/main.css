@@ -2411,6 +2411,10 @@ input, select, textarea {
 
 /* Image */
 
+	.mike-img {
+		max-width: 40%;
+	}
+
 	.image {
 		border-radius: 0px;
 		border: 0;
