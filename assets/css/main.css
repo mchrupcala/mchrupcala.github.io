@@ -2415,7 +2415,7 @@ input, select, textarea {
 
 		
 	} */
-	@media screen and (max-width: 480px) {
+	/* @media screen and (max-width: 480px) {
 		.mike-img {
 			max-width: 80%;
 			min-width: 60%;
@@ -2447,7 +2447,7 @@ input, select, textarea {
 				max-width: 40%;
 				min-width: 25%;
 			}
-	}
+	} */
 
 	.image {
 		border-radius: 0px;
