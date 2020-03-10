@@ -2411,9 +2411,36 @@ input, select, textarea {
 
 /* Image */
 
-	.mike-img {
-		max-width: 60%;
+	/* .mike-img {
 
+		
+	} */
+	@media screen and (max-width: 480px) {
+		.mike-img {
+			max-width: 80%;
+			min-width: 60%;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+		.mike-img {
+			max-width: 70%;
+			min-width: 40%;
+		}
+	}
+
+	@media screen and (max-width: 980px) {
+		.mike-img {
+			max-width: 70%;
+			min-width: 40%;
+		}
+	}
+
+	@media screen and (max-width: 1280px) {
+		.mike-img {
+			max-width: 60%;
+			min-width: 30%;
+		}
 	}
 
 	.image {
@@ -3484,7 +3511,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 12em 3em 12.375em 3em ;
+				padding: 9em 3em 12.375em 3em ;
 				margin-bottom: -4.75em;
 			}
 
